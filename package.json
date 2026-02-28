@@ -25,6 +25,7 @@
     "react-router-dom": "^6.26.2",
     "react-toastify": "^11.0.5",
     "recharts": "^3.7.0",
+    "serve": "^14.2.5",
     "tailwindcss": "^4.1.18",
     "uuid": "^13.0.0"
   },
