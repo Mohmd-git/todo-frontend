@@ -66,7 +66,7 @@ export default function Register() {
             <div className="relative group">
               <User className="absolute left-4 top-3.5 text-zinc-500 group-focus-within:text-indigo-400 transition-colors" size={18} strokeWidth={2.5} />
               <input
-                type="text" placeholder="SuperAdmin1" value={username} onChange={(e) => setUsername(e.target.value)}
+                type="text" placeholder="Enter Username" value={username} onChange={(e) => setUsername(e.target.value)}
                 className="w-full bg-zinc-950/50 border border-white/10 text-white pl-11 pr-4 py-3.5 rounded-2xl text-[15px] font-medium placeholder-zinc-600 focus:outline-none focus:ring-1 focus:ring-indigo-500/50 focus:border-indigo-500 focus:bg-zinc-900/50 transition-all duration-300"
               />
             </div>

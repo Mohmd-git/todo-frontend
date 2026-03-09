@@ -6,6 +6,7 @@ export const apiSlice = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
     baseUrl: BACKEND_URI,
+    credentials: "include", // ✅ add this line here
     prepareHeaders: (headers, { getState }) => {
       const token = getState().auth?.token;
       if (token) {
@@ -14,6 +15,6 @@ export const apiSlice = createApi({
       return headers;
     },
   }),
-tagTypes:["Auth","Todo"],
+  tagTypes: ["Auth", "Todo"],
   endpoints: (builder) => ({}),
 });
